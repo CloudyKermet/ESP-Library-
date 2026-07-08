@@ -1,5 +1,10 @@
+local chams = loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudyKermet/ESP-Library-/refs/heads/main/chams.lua"))()
+local skeleton = loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudyKermet/ESP-Library-/refs/heads/main/skeleton.lua"))() 
+local headdot = loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudyKermet/ESP-Library-/refs/heads/main/headdot.lua"))()
 
-
+chams()
+skeleton()
+headdot()
 
 _G.Skeleton.Enabled   = false
 _G.HeadCircle.Enabled = false
